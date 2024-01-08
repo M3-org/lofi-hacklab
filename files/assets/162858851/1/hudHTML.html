@@ -1,0 +1,89 @@
+<table cellspacing="0" cellpadding="0" class="onlyIfNotFullscreenBodyMode" style="display: none !important;">
+    <tr>
+        <td>
+            <div class="hashTag">#3Dstartpage</div>
+        </td>
+    </tr>
+    <tr>
+        <td align="right">
+            <div class="tweetButton"></div>
+        </td>
+    </tr>
+</table>
+
+<div style="display: none;">
+    <textarea class="menuTemplate">
+        <table cellspacing="0" cellpadding="0" class="menuSlate">
+            <tr>
+                <td align="center" valign="middle">
+                    <div style="position: relative; display: inline-block;">
+                        <div class="menuContainer">
+                            <div class="menuContentContainer"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </textarea>
+    <textarea class="fullscreenMenu">
+        <table cellspacing="0" cellpadding="0" style="width: 100%; height: 100%;">
+            <tr>
+                <td align="center" valign="middle" colspan="3"></td>
+            </tr>
+            <tr>
+                <td align="right" valign="middle" height="1" width="50%" style="padding-bottom: 16px;">
+                    <div class="menuButtonContainer" style="pointer-events: all;">
+                        <button role="button" class="button-84 menuButton menuControlRestore">Minimize</button>
+                    </div>
+                </td>
+                <td align="right" valign="middle" style="padding-bottom: 16px;">
+                    <div class="menuButtonContainer" style="pointer-events: all;">
+                        <button role="button" class="button-84 menuButton menuControlNewTab">New Tab</button>
+                    </div>
+                </td>
+                <td align="left" valign="middle" width="50%" style="padding-bottom: 16px;" >
+                    <div class="menuButtonContainer" style="pointer-events: all;">
+                        <button role="button" class="button-84 menuButton menuControlClose">Close</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </textarea>
+    <textarea class="menuContent" name="welcome">
+        Hello world!
+        <div>
+            <input type="button" value="OK" class="closeButton" />
+        </div>
+    </textarea>
+    <textarea class="menuContent" name="link">
+        <div style="letter-spacing: 0.3em; font-size: 24px; padding: 8px;">Visit the following link?</div>
+        <div style="box-sizing: border-box; padding: 16px;">
+            <input type="text" class="menuLinkPreview" readonly value="" />
+        </div>
+        <div style="padding: 8px;">
+            <table>
+                <tr>
+                    <td align="right" valign="middle">
+                        <input type="checkbox" class="linkRememberCheckbox" name="linkRememberCheckbox" id="linkRememberCheckbox" />
+                    </td>
+                    <td align="left" valign="middle">
+                        <label class="linkRememberLabel" for="linkRememberCheckbox">
+                            Remember my decision for this link.
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <div class="menuButtonContainer" style="display: none;">
+                <button role="button" class="button-84 menuButton menuLinkIframe">Open Iframe</button>
+            </div>
+            <div class="menuButtonContainer">
+                <button role="button" class="button-84 menuButton menuLinkYes">Open Tab</button>
+            </div>
+            <div class="menuButtonContainer">
+                <button role="button" class="button-84 menuButton closeButton">Cancel</button>
+            </div>
+        </div>
+    </textarea>
+</div>
